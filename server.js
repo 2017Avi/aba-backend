@@ -78,5 +78,5 @@ function handleRequest(req, res) {
 }
 
 http.createServer(handleRequest).listen(PORT, () => {
-  console.log(`ABA backend running on port ${PORT}`);
+  console.log('ABA backend running on port ' + PORT);
 });
